@@ -1,3 +1,5 @@
+# (To protect privacy, we will publish our RMamba algorithm and the link to the dataset we used once the article is accepted.)
+
 # A Novel Robust Lightweight Anomaly Diagnosis Model Capable of Extracting Dynamic Features
 
 ### Abstract
