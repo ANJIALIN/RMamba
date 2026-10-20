@@ -1,6 +1,4 @@
-# (To protect privacy, we will publish our RMamba algorithm and the link to the dataset we used once the article is accepted.)
-
-Disturbances Robust Mamba Model for Industrial Anomaly Diagnosis
+# Disturbances Robust Mamba Model for Industrial Anomaly Diagnosis
 
 ### Abstract
 
@@ -8,8 +6,9 @@ Conventional lightweight deep learning approaches often struggle to capture dyna
 attention Mamba module is designed to jointly extract dynamic and static features. Then a lightweight global feature extraction module is built to re-calibrate global representations via channelwise adaptive scaling and shifting, enabling holistic feature perception with negligible computational overhead. Meanwhile, a dynamic gating module with adaptive learning that performs convolutional sparsification on global features is constructed to simultaneously enhance computational efficiency and improve robustness under lightweight design constraints. Extensive experiments conducted on a public conveyor belt video dataset and an industrial smelting furnace validate the efficacy of the proposed method.
 
 ## Table of Contents
-- [Environment](#Environment)
-- [Dataset](#Dataset)
+- [Environment](##Environment)
+- [Dataset](##Dataset)
+- [Citation](##Citation)
 
 ## Environment
 
@@ -66,10 +65,19 @@ I just used the conveyor belt dataset, if you want to verify my data, you need t
 
 
 ## Citation
-My paper has not been published yet, so I'll leave you alone for now.<img src="make images/hx.jpg" width="40"/>
+If my work is helpful to you, please remember to cite it.<img src="make images/hx.jpg" width="40"/>
+
+If you have any questions or spot any issues, feel free to reach out to me at: anjialin8@gmail.com
 
 ```bibtex
-If my work is helpful to you, please remember to cite it when my paper is published.
-
-如果我的东西对你有帮助，等我论文发表了，记得引用哦。
+@ARTICLE{11714317,
+  author={Liu, Qiang and An, Jialin and Wu, Gaochang and Fan, Zizhu and Zhang, Jingxin},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Disturbances Robust Mamba Model for Industrial Anomaly Diagnosis}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Modeling;Medical diagnosis;Accuracy;Transformers;Timing;Lighting;Gaussian noise;Matrices;Noise;Convolutional neural networks;Anomaly Diagnosis;Mamba Model;Industrial Smelting Furnace},
+  doi={10.1109/TMM.2026.3733223}}
 ```
